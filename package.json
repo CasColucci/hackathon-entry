@@ -1,0 +1,31 @@
+{
+  "name": "hackathon-entry",
+  "version": "1.0.0",
+  "description": "Messing around with a markdown-based blog-ish concept.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js", 
+    "start": "concurrently \"server.js\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CasColucci/markdown-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CasColucci/markdown-blog/issues"
+  },
+  "homepage": "https://github.com/CasColucci/markdown-blog#readme",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
