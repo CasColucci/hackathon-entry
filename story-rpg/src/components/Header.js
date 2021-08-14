@@ -6,8 +6,8 @@ const TitleAndDescription = ({ data }) => {
   const description = data.site.siteMetadata.description
 
   return (
-    <div>
-      <h2>{title}</h2>
+    <div class="text-center p-10">
+      <h2 class="text-xl font-bold text-gray-700">{title}</h2>
       <p>{description}</p>
     </div>
   )
