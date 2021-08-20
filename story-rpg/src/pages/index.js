@@ -6,12 +6,10 @@ const Layout = ({ data }) => {
   const { edges } = data.allMarkdownRemark
   console.log(edges)
   return (
-    <body styles="background-image: url('../images/bkgd.jpg')">
-      <div>
-        <Navbar />
-        <Header />
-      </div>
-    </body>
+    <div>
+      <Navbar />
+      <Header />
+    </div>
   )
 }
 
